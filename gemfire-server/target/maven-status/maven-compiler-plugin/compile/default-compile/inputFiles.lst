@@ -1,0 +1,6 @@
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/functions/CalculateAverageFunction.java
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/functions/ClearRegionRemoveAllFunction.java
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/listeners/MyAsyncEventListener.java
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/functions/GemfireFunction.java
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/listeners/CacheListener.java
+/Users/mross/sandbox/myCoolGemfireProject/gemfire-server/src/main/java/io/pivotal/gemfireServer/writers/CacheWriter.java

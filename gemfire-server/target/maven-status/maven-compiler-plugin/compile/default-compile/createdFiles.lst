@@ -1,0 +1,6 @@
+io/pivotal/gemfireServer/functions/ClearRegionRemoveAllFunction.class
+io/pivotal/gemfireServer/listeners/MyAsyncEventListener.class
+io/pivotal/gemfireServer/functions/CalculateAverageFunction.class
+io/pivotal/gemfireServer/writers/CacheWriter.class
+io/pivotal/gemfireServer/functions/GemfireFunction.class
+io/pivotal/gemfireServer/listeners/CacheListener.class

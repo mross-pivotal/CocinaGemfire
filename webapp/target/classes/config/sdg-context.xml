@@ -32,6 +32,8 @@
     <gfe-data:repositories base-package="io.pivotal.PersonRepository"  />
 
     <gfe:client-region id="People" shortcut="PROXY" cache-ref="gemfireCache" pool-name="gemfirePool"/>
+    <gfe:client-region id="Trades" shortcut="PROXY" cache-ref="gemfireCache" pool-name="gemfirePool"/>
+
     <gfe:client-region name="test" id="test" shortcut="PROXY" cache-ref="gemfireCache" pool-name="gemfirePool"/>
 
 </beans>

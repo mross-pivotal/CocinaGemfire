@@ -32,4 +32,13 @@ public class CocinaFunctionExecutor {
 
     return calculatedAverage;
   }
+
+  public void runCalculateDailyRisk() {
+    Execution functionExecution = FunctionService
+        .onRegion(cache.getRegion("People"));
+    ResultCollector<?,?> results = functionExecution.execute("GemfireFunction");
+
+
+  }
+
 }

@@ -1,5 +1,7 @@
+io/pivotal/CocinaFunctionExecutor.class
 io/pivotal/PersonRepository.class
 io/pivotal/CocinaApplication.class
 io/pivotal/MyFunctionExecution.class
 io/pivotal/CocinaController.class
-io/pivotal/FunctionService.class
+io/pivotal/TradeRepository.class
+io/pivotal/CocinaResultCollector.class

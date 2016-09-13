@@ -45,20 +45,13 @@ public class GemfireFunction extends FunctionAdapter
             .getDistributedSystem().getDistributedMember().getName();
         Region<Object, Person> localRegion = PartitionRegionHelper
             .getLocalDataForContext(rfc);
-        ArrayList<Person> values = (ArrayList<Person>) localRegion.values();
-        Collection<Person> set = localRegion.values();
-        ArrayList<Person> people = new ArrayList<>(set);
-
-        int count =0;
-        for (Person item : values) {
-            count++;
-
-          logger.info(item.toString());
-
+        for(Person p: localRegion.values()) {
+          p.calculateRiskFactor(.5);
+          localRegion.put(p.getId(),p);
         }
-        logger.info("????I am in a function!");
-        context.getResultSender().lastResult("Executed Function on " + serverName + " Found this many records: "+ count);
-        // TODO-06: Return the final sum
+
+        context.getResultSender().lastResult("Executed Calculate Risk Function on " + serverName);
+
       } else {
         throw new FunctionException("Function must be called as onRegion()");
       }
